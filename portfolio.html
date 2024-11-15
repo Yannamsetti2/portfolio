@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-top: 10px;
+}
+
+.project-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Y.G.S.N. Ishwarya, currently pursuing my B.Tech in the 4th year at GMRIT Rajam, specializing in the Artificial Intelligence and Data Science (AIDS) branch. I am a dedicated and passionate individual who thrives on learning and applying innovative solutions to complex problems.
+
+            My strengths lie in my hardworking nature, a positive attitude towards challenges, and strong problem-solving skills. I am eager to leverage these qualities in my professional journey, contributing meaningfully to technology and data-driven projects.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Technology in Artificial Intelligence and Data Science - GMR Institute of Technology (GMRIT), Class of 2025</li>
+            <li>High School - Sasi EM High School, Tadicherla, 2019 (10 GPA)</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project" id="project-list">
+            <p>Voice Prescription:</p>
+            <li><a href="#about"> https://github.com/Yannamsetti2/miniproject.git</a></li>
+            <p>Spin a Yarn: </p>
+            <li><a href="#about">https://github.com/Yannamsetti2/spin-a-yarn.git</a></li>
+
+            <!-- Projects will be dynamically added using JavaScript -->
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
